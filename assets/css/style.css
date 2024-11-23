@@ -39,8 +39,7 @@ h2 {
 }
 
 .section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: 4rem; /* prevent navbar overlap */ 
 }
 
 /* Buttons */
@@ -104,10 +103,10 @@ h2 {
 }
 
 /* Contact us */
-#join th{
+#events th{
     font-weight: bold;
 }
-#join .btn{
+#events .btn{
     border-radius: 0%;
     font-weight:  bold;
     margin: 50px auto;
